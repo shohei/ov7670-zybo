@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_blk_mem_gen_0_0_synth_1" LaunchDir="/home/shohei/Downloads/todotani_ov7670/master/master.runs/design_1_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_processing_system7_0_0_synth_1" LaunchDir="/home/shohei/Downloads/todotani_ov7670/master/master.runs/design_1_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_ov7670_camera_0_0_synth_1" LaunchDir="/home/shohei/Downloads/todotani_ov7670/master/master.runs/design_1_ov7670_camera_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_qvga_to_vga_0_0_synth_1" LaunchDir="/home/shohei/Downloads/todotani_ov7670/master/master.runs/design_1_qvga_to_vga_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_proc_sys_reset_0_0_synth_1" LaunchDir="/home/shohei/Downloads/todotani_ov7670/master/master.runs/design_1_proc_sys_reset_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_clk_wiz_0_1_synth_1" LaunchDir="/home/shohei/Downloads/todotani_ov7670/master/master.runs/design_1_clk_wiz_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/shohei/Downloads/todotani_ov7670/master/master.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_1_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="design_1_processing_system7_0_0_synth_1"/>
+		<Parent Id="design_1_ov7670_camera_0_0_synth_1"/>
+		<Parent Id="design_1_qvga_to_vga_0_0_synth_1"/>
+		<Parent Id="design_1_proc_sys_reset_0_0_synth_1"/>
+		<Parent Id="design_1_clk_wiz_0_1_synth_1"/>
+	</Run>
+</Runs>
+

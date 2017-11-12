@@ -1,0 +1,56 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port vsync -pg 1 -y 310 -defaultsOSRD
+preplace port DDR -pg 1 -y 170 -defaultsOSRD
+preplace port xclk -pg 1 -y 80 -defaultsOSRD
+preplace port href -pg 1 -y 330 -defaultsOSRD
+preplace port led0 -pg 1 -y 100 -defaultsOSRD
+preplace port vo_hsync -pg 1 -y 560 -defaultsOSRD
+preplace port IIC_0 -pg 1 -y 200 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 150 -defaultsOSRD
+preplace port vo_vsync -pg 1 -y 480 -defaultsOSRD
+preplace port pclk -pg 1 -y 290 -defaultsOSRD
+preplace portBus vo_b_data -pg 1 -y 440 -defaultsOSRD
+preplace portBus vo_g_data -pg 1 -y 420 -defaultsOSRD
+preplace portBus vo_r_data -pg 1 -y 400 -defaultsOSRD
+preplace portBus data -pg 1 -y 350 -defaultsOSRD
+preplace inst ov7670_camera_0 -pg 1 -lvl 1 -y 320 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -y 120 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 3 -y 730 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -y 100 -defaultsOSRD
+preplace inst qvga_to_vga_0 -pg 1 -lvl 2 -y 450 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 3 -y 310 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 3 1 1260J
+preplace netloc qvga_to_vga_0_vo_g_data 1 2 2 780J 90 1250J
+preplace netloc clk_wiz_0_locked 1 2 2 770J 70 1270J
+preplace netloc href_0_1 1 0 1 NJ
+preplace netloc qvga_to_vga_0_vo_hsync 1 2 2 720J 560 NJ
+preplace netloc ov7670_camera_0_we 1 1 2 NJ 340 700
+preplace netloc proc_sys_reset_0_mb_reset 1 1 1 350
+preplace netloc pclk_0_1 1 0 3 -20 240 NJ 240 770
+preplace netloc ov7670_camera_0_bram_addr 1 1 2 NJ 300 760
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 4 -10 570 NJ 570 NJ 570 1240
+preplace netloc processing_system7_0_IIC_0 1 3 1 N
+preplace netloc qvga_to_vga_0_vo_vsync 1 2 2 710J 540 1280J
+preplace netloc processing_system7_0_FIXED_IO 1 3 1 1270J
+preplace netloc data_0_1 1 0 1 NJ
+preplace netloc clk_wiz_0_clk_out1 1 2 2 700J 60 1290J
+preplace netloc qvga_to_vga_0_vo_b_data 1 2 2 750J 530 1260J
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 1 350
+preplace netloc clk_wiz_0_clk_out2 1 1 2 360 550 740
+preplace netloc blk_mem_gen_0_doutb 1 1 2 370 810 NJ
+preplace netloc ov7670_camera_0_data_out 1 1 2 NJ 320 730
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 -20 210 360J 170 790J 80 1240
+preplace netloc vsync_0_1 1 0 1 NJ
+preplace netloc qvga_to_vga_0_vo_r_data 1 2 2 710J 40 1280J
+preplace netloc qvga_to_vga_0_frame_addr 1 2 1 690
+levelinfo -pg 1 -40 170 530 1020 1310 -top 0 -bot 860
+",
+}
+{
+   da_board_cnt: "3",
+   da_clkrst_cnt: "1",
+   da_ps7_cnt: "1",
+}
